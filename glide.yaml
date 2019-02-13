@@ -1,0 +1,35 @@
+package: github.com/cocher
+import:
+- package: github.com/davecgh/go-spew
+  version: v1.1.0
+- package: github.com/fd/go-nat 
+  version: v1.0.0
+- package: github.com/gogo/protobuf 
+  version: v1.1.1
+- package: github.com/cocher/utils/log
+- package: github.com/golang/mock 
+  version: v1.1.1
+- package: github.com/klauspost/cpuid
+- package: github.com/klauspost/reedsolomon
+- package: github.com/minio/blake2b-simd
+- package: github.com/pkg/errors 
+  version: v0.8.0
+- package: github.com/pmezard/go-difflib 
+  version: v1.0.0
+- package: github.com/stretchr/testify 
+  version: v1.2.2
+- package: github.com/templexxx/cpufeat
+- package: github.com/templexxx/xor
+- package: github.com/tjfoc/gmsm 
+  version: v1.0.1
+- package: github.com/uber-go/atomic
+  version: v1.3.2
+- package: github.com/xtaci/kcp-go
+- package: github.com/xtaci/smux
+  version: v1.0.7
+- package: golang.org/x/crypto
+  repo: https://github.com/golang/crypto.git
+- package: golang.org/x/net
+  repo: https://github.com/golang/net.git
+- package: golang.org/x/text
+  repo: https://github.com/golang/text.git
